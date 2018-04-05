@@ -10,6 +10,7 @@ function destructivelyPrependKitten(name) {
   kittens.unshift(name)
   return kittens
 }
+
 function destructivelyRemoveKitten() {
   kittens.pop()
   return kittens
